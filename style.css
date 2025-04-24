@@ -584,74 +584,109 @@ footer p {
 
 
 
-@media (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+@media (max-width: 480px) {
 
     header {
-        padding: 10px;
-    }
-
-    header h1 {
-        font-size: 1.2rem;
+        flex-direction: column;
+        padding: 10px 15px;
+        text-align: center;
     }
 
     header nav ol {
-        margin: 4px;
-        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
     }
 
     header nav ol li {
-        margin-right: 8px;
-    }
-
-    header nav ol li a {
-        font-size: 0.9rem;
-        padding: 0.4rem;
-    }
-
-    .header_icon {
-        padding-right: 10px;
-    }
-
-    #dark-mode-toggle,
-    #light-mode-toggle {
-        font-size: 1rem;
+        margin: 5px 0;
     }
 
     #home {
-        padding-top: 150px;
-        padding-left: 30px;
-        height: 500px;
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto;
+        text-align: center;
     }
 
     #img {
-        top: 150px;
-        right: 30px;
-        height: 150px;
+        position: static;
+        margin-top: 20px;
         width: 150px;
+        height: 150px;
+    }
+
+    .Aboutme {
+        flex-direction: column;
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    #aboutimg {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #aboutp {
+        padding: 0;
+        text-align: justify;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skills-category {
+        width: 100%;
+    }
+
+    #services {
+        padding: 20px;
+        height: auto;
+    }
+
+    .service {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #project {
+        padding: 20px;
+    }
+
+    .project-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #contact {
+        padding: 20px;
+    }
+
+    form {
+        width: 100%;
     }
 
     .social-links {
-        gap: 10px;
-        padding: 15px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .social-links a {
-        font-size: 18px;
-        width: 40px;
-        height: 40px;
-        padding: 8px;
+        margin-bottom: 10px;
     }
 
-    .homebutton {
-        padding: 8px;
-        font-size: 14px;
+    footer {
+        padding: 15px;
+        font-size: 0.9rem;
     }
+
+    .footersocial-links a {
+        margin: 0 8px;
+        font-size: 20px;
+    }
+
 }
-
-
-
-
