@@ -584,19 +584,20 @@ footer p {
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 414px) {
 
     header {
-        flex-direction: column;
+       display: flex;
         padding: 10px 15px;
         text-align: center;
+        
     }
 
     header nav ol {
-        flex-direction: column;
+        
         align-items: center;
         margin: 10px 0;
-    }
+    } 
 
     header nav ol li {
         margin: 5px 0;
@@ -604,10 +605,11 @@ footer p {
 
     #home {
         padding-top: 120px;
-        padding-left: 20px;
-        padding-right: 20px;
+        
+      
         height: auto;
         text-align: center;
+
     }
 
     #img {
