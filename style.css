@@ -619,6 +619,7 @@ footer p {
         height: 150px;
     }
 
+
     .Aboutme {
         flex-direction: column;
         padding: 40px 20px;
@@ -637,8 +638,10 @@ footer p {
     }
 
     .skills-container {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: row;
+    gap: 5px;
+        
+    
     }
 
     .skills-category {
