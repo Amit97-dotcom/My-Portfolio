@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amit Singh's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
 
     
 <header> 
@@ -16,12 +17,15 @@
     
     <h1>Amit Singh</h1>
 
-<div class="header_icon">
+<div class="mode" id="mode-toggle">
+    
     <i class="fa-solid fa-moon" id="dark-mode-toggle"></i>
     
     <i class="fa-solid fa-sun" id="light-mode-toggle"></i>
+    
 
 </div>
+
 <nav>
         <ol>
             <li><a href="#home">Home</a></li>
@@ -32,8 +36,28 @@
             <li><a href="#contact">Contact</a></li>
         </ol>
     </nav>
+
     
+    
+<div id="radioicon">
+    
+    <i class="fa-solid fa-bars"></i>
+
+</div>
+
 </header>
+
+<div class="dropdown">
+    <ol>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ol>
+</div>
+
 
 
 <section id="home">
@@ -235,6 +259,7 @@
 </footer>
 
 
+<script src="app.js"></script>
 
 
 </body>

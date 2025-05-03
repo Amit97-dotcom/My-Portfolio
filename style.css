@@ -17,77 +17,111 @@ body {
 
 header{
 position: fixed;
-    background-color:gray;
-    color: white;
+    background-color:black;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-    width: 100%;
+    width: 100vw;
    
-    
-    
+    align-items: center;
 
 }
 
 header h1{
 
     color:#11cce5;
-    text-shadow:0 2px 2px;
+    padding-left: 20px;
+
 }
 header nav ol {
-   display:inline-block;
     list-style: none;
-    margin: 10px 20px;
-    display: flex;
+        gap: 10px;
+display: flex;
+padding-top: 10px;
+padding-right: 20px;
+
 }
 
 header nav ol li a {
-    color:black;
+    color:white;
     text-decoration: none;
     padding: 0.5rem;
    
-    justify-content:right;
     transition: 0.2s;
 }
 
 header nav ol li a:hover {
     color:red;
-    box-shadow: 0 2px 4px rgb(16, 15, 15);
+    box-shadow: 0 2px 4px white;
     border-radius: 20px;
+
 }
+
+#radioicon{
+
+
+    color: red;
+padding-right: 20px;
+padding-top: 10px;
+cursor: pointer;
+display: none;
+
+}
+
+.dropdown{
+display: none;
+position: absolute;
+right: 2rem;
+top: 60px;
+width: 200px;
+background-color:cadetblue;
+backdrop-filter: blur(15px);
+border-radius: 5%;
+overflow: hidden;
+
+}
+
+.dropdown ol li {
+padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown ol li a {
+
+    color: white;
+}
+
+.dropdown.open {
+    display: block;
+  }
+
 .header_icon{
 
 
-padding-right: 5px;
-
-    background-color: azure;
-    border-radius:20%;
+    
+margin: 0;
     align-items: center;
 }
 
 
 #dark-mode-toggle{
 
-
+    background-color: white;
     color:orange;
    
-   margin-right: 5px;
-    
-    
-   
-  padding: 10px;
-    
-    
+   padding: 10px;
+   border-radius: 10%;
 
-    
 }
+
+
 #light-mode-toggle{
     color:orange;
-   
-    
-   
-    
+    background-color: white;
+     padding: 10px;
+     border-radius: 10%;
+
 }
 
 #home{
@@ -130,6 +164,7 @@ animation: bounce 2s infinite;
         transform: translateY(0);
     }
 }
+
 
 .social-links {
     display: flex;
@@ -584,23 +619,33 @@ footer p {
 
 
 
-@media (max-width: 414px) {
+@media (max-width: 786px)
+
+
+{
 
     header {
        display: flex;
-        padding: 10px 15px;
-        text-align: center;
         
+        text-align: center;
+        justify-content:space-between;
     }
+    #radioicon{
 
+
+        display: block;
+
+}
     header nav ol {
         
         align-items: center;
-        margin: 10px 0;
+        margin-right: 20px ;
+        display: none;
     } 
 
     header nav ol li {
         margin: 5px 0;
+        
     }
 
     #home {
