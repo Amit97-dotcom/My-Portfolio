@@ -126,7 +126,7 @@ margin: 0;
 
 #home{
 
-    background-color:antiquewhite;
+    background-color:white;
     color:aqua;
     
 padding-top: 250px;
@@ -281,7 +281,7 @@ box-shadow:0 5px 5px ;
 
 #skills {
     padding: 20px;
-    background-color: #f4f4f4;
+    
     background-color:darkgrey;
     height: 600px;
 }
@@ -304,6 +304,7 @@ box-shadow:0 5px 5px ;
 
 .skills-category {
     width: 45%;
+
     
 }
 .Hard{
