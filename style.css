@@ -126,7 +126,7 @@ margin: 0;
 
 #home{
 
-    background-color: rgb(9, 41, 43);
+    background-color:antiquewhite
     color: white;
 padding-top: 250px;
 padding-left: 100px;
@@ -649,19 +649,26 @@ footer p {
     }
 
     #home {
-        padding-top: 120px;
-        
-      
+        padding: 100px;
         height: auto;
         text-align: center;
+        justify-content: center;
 
     }
 
     #img {
         position: static;
         margin-top: 20px;
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
+        
+    }
+    
+    .social-links a  {
+
+        display: flex;
+        
+        
     }
 
 
@@ -718,15 +725,6 @@ footer p {
 
     form {
         width: 100%;
-    }
-
-    .social-links {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .social-links a {
-        margin-bottom: 10px;
     }
 
     footer {
