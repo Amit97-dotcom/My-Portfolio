@@ -69,7 +69,7 @@ display: none;
 
 .dropdown{
 display: none;
-position: absolute;
+position: fixed;
 right: 2rem;
 top: 60px;
 width: 200px;
@@ -683,17 +683,27 @@ footer p {
         flex-direction: column;
         padding: 40px 20px;
         height: auto;
+        background-color:thistle;
     }
 
     #aboutimg {
-        width: 100%;
-        height: auto;
+        width: 100px;
+        height: 150px;
         margin-bottom: 20px;
     }
 
     #aboutp {
         padding: 0;
-        text-align: justify;
+        
+    }
+
+    .Aboutmeh2{
+
+        position: absolute;
+        right: 30px;
+        top: 700pxpx;
+        color:black;
+        text-shadow: 0 5px 4px red;
     }
 
     .skills-container {
